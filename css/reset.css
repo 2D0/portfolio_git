@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+*{
+    margin:0; padding:0;
+}
+
+body{
+    font-size:12px;
+    line-height:1.2em;
+    font-family:'';
+}
+
+a{ 
+    color:#111;
+    text-decoration:none;
+}
+img{
+    border:none;
+    vertical-align:top;
+}
+ul,ol{
+    list-style:none;
+}
+h1,h2,h3,h4,h5,h6,div,p,ul,ol,li,dl,dt,dd{
+    box-sizing:border-box;
+}
+address{
+    font-style:normal;
+}
+.clearfix{ }
+.clearfix{
+    content:"";
+    display:block;
+    clear:both;
+}
