@@ -1,5 +1,41 @@
 @charset "utf-8";
 
+/* =============== 폰트 ================ */
+
+/* 마포꽃섬 폰트 출처표시 필 */
+@font-face {
+    font-family: 'MapoFlowerIsland';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 카페24 폰트 */
+@font-face {
+    font-family: 'Cafe24Dangdanghae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 비씨카드 폰트 */
+@font-face {
+    font-family: 'BCcardB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.1/BCcardB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 제주명조 폰트 */
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+.jejumyeongjo * { 
+ font-family: 'Jeju Myeongjo', serif;
+}
+    
+
+/* =============== 리셋 ================ */
+
 *{
     margin:0; padding:0;
 }
@@ -7,7 +43,8 @@
 body{
     font-size:12px;
     line-height:1.2em;
-    font-family:'';
+    /* font-family: 'MapoFlowerIsland'; */
+    font-family: 'Jeju Myeongjo', serif;
 }
 
 a{ 
